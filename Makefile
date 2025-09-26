@@ -71,6 +71,6 @@ help:
 
 .DEFAULT_GOAL := help
 
-
+# clean generate proto golang files
 clean_pb:
 	find ./ -name *.pb.go | rm
